@@ -4,6 +4,7 @@
   const app = document.getElementById("app");
   const MORPHEMES = LATIEN.morphemes;
   const WORDS = LATIEN.words;
+  const EXAMPLES = LATIEN.examples;
   const TYPE_LABEL = { prefix: "接頭辞", root: "語根", suffix: "接尾辞" };
   const LANG_SHORT = { la: "ラ", fr: "仏", gr: "希", en: "英" };
   const LANG_LABEL = { la: "ラテン語", fr: "フランス語", gr: "ギリシャ語", en: "英語（ゲルマン系）" };
@@ -74,6 +75,17 @@
         return `<span class="mini-part ${m.type}"><b>${esc(t)}</b>${withMeaning ? esc(m.meaning) : ""}</span>`;
       })
       .join("")}</div>`;
+  }
+  // 例文。見出し語（活用形を含む）を強調する
+  function exampleHtml(w, cls = "example") {
+    const ex = EXAMPLES[w.w];
+    if (!ex) return "";
+    const stem = w.w.length > 4 ? w.w.slice(0, -2) : w.w.endsWith("y") ? w.w.slice(0, -1) : w.w;
+    const en = ex.en.split(/([A-Za-z']+)/).map((tok) => {
+      const t = tok.toLowerCase();
+      return t.startsWith(stem) && t.length <= w.w.length + 4 ? `<mark>${esc(tok)}</mark>` : esc(tok);
+    }).join("");
+    return `<div class="${cls}"><p class="ex-en">${en}</p><p class="ex-ja">${esc(ex.ja)}</p></div>`;
   }
   // 「dis-（離れて）＋ close（閉じる）」のような式
   function formula(w) {
@@ -278,6 +290,7 @@
         <p class="formula-line">${esc(formula(w))}</p>
         ${w.logic ? `<p class="logic">→ ${esc(w.logic)}</p>` : ""}
       </div>
+      ${EXAMPLES[w.w] ? `<div class="panel"><h3>例文</h3>${exampleHtml(w)}</div>` : ""}
       <div class="panel"><h3>語源の経路 ${langBadge(w.via)} ${VIA_LABEL[w.via]}</h3>${w.route ? `<p class="route">${esc(w.route)}</p>` : ""}</div>
       <section class="related">${related}</section>`;
     app.querySelector("#star").addEventListener("click", (e) => {
@@ -415,7 +428,8 @@
       const back = `${segWord(w.parts)}
         <div class="answer">${esc(w.ja)}</div>
         ${miniParts(w)}
-        ${w.logic ? `<p class="logic">${esc(w.logic)}</p>` : ""}`;
+        ${w.logic ? `<p class="logic">${esc(w.logic)}</p>` : ""}
+        ${exampleHtml(w, "example compact")}`;
       app.innerHTML = `
         <a class="back" href="#/cards">← 単語帳の設定に戻る</a>
         <div class="q-meta"><span>${i + 1} / ${deck.length}</span><span>${isStarred(w.w) ? "★ マイ単語帳" : ""} ${lvBadge(w.lv)}</span></div>
@@ -614,6 +628,7 @@
           <div class="res ${ok ? "ok" : "ng"}">${ok ? "正解！" : "不正解"}</div>
           <div>${segWord(q.w.parts)} <span>${esc(q.w.ja)}</span></div>
           <p style="margin:6px 0 0">${esc(formula(q.w))}${q.w.logic ? `<br>→ ${esc(q.w.logic)}` : ""}</p>
+          ${exampleHtml(q.w, "example compact")}
         </div>
         <div class="btn-row"><button class="btn primary" id="next">${i + 1 < qs.length ? "次の問題へ" : "結果を見る"}</button></div>`;
       app.querySelector("#next").addEventListener("click", next);

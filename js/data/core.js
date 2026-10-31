@@ -2,11 +2,20 @@
 const LATIEN = {
   morphemes: {},
   words: [],
+  examples: {},
   addMorphemes(text) {
     for (const line of text.split("\n")) {
       if (!line.trim()) continue;
       const [id, type, lang, forms, origin, meaning] = line.split("|");
       this.morphemes[id] = { type, lang, forms: forms.split(","), origin, meaning };
+    }
+  },
+  // 1行1例文: 単語|英文|和訳
+  addExamples(text) {
+    for (const line of text.split("\n")) {
+      if (!line.trim()) continue;
+      const [w, en, ja] = line.split("|");
+      this.examples[w] = { en, ja };
     }
   },
   addWords(text) {
