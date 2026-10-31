@@ -153,6 +153,7 @@
         <div class="chips-label">TOEIC レベル</div>
         ${chipGroup("lv", LEVEL_CHIPS, home.lv)}
       </section>
+      <div class="ad-slot" data-ad="home"></div>
       <div class="count" id="count"></div>
       <div id="results"></div>`;
     const q = app.querySelector("#q");
@@ -291,6 +292,7 @@
         ${w.logic ? `<p class="logic">→ ${esc(w.logic)}</p>` : ""}
       </div>
       ${EXAMPLES[w.w] ? `<div class="panel"><h3>例文</h3>${exampleHtml(w)}</div>` : ""}
+      <div class="ad-slot" data-ad="word"></div>
       <div class="panel"><h3>語源の経路 ${langBadge(w.via)} ${VIA_LABEL[w.via]}</h3>${w.route ? `<p class="route">${esc(w.route)}</p>` : ""}</div>
       <section class="related">${related}</section>`;
     app.querySelector("#star").addEventListener("click", (e) => {
@@ -466,6 +468,7 @@
       const again = results.filter(([, ok]) => !ok).map(([w]) => w);
       app.innerHTML = `
         <div class="score"><b>${results.length - again.length} / ${results.length}</b><span class="muted">覚えた枚数</span></div>
+        <div class="ad-slot" data-ad="result"></div>
         <div class="btn-row">
           ${again.length ? `<button class="btn primary" id="retry">「まだ」の ${again.length} 枚をもう一度</button>` : ""}
           <a class="btn" href="#/cards" style="text-decoration:none">設定に戻る</a>
@@ -641,6 +644,7 @@
       const wrongWords = [...new Set(log.filter((x) => !x.ok).map((x) => x.q.w))];
       app.innerHTML = `
         <div class="score"><b>${score} / ${log.length}</b><span class="muted">正答率 ${Math.round((score / log.length) * 100)}%</span></div>
+        <div class="ad-slot" data-ad="result"></div>
         <div class="btn-row">
           ${wrongWords.length ? `<button class="btn primary" id="retry">間違えた ${wrongWords.length} 語でもう一度</button>` : ""}
           <a class="btn" href="#/test" style="text-decoration:none">設定に戻る</a>
@@ -663,4 +667,5 @@
   }
 
   render();
+  if (typeof LatienAds !== "undefined") LatienAds.load();
 })();

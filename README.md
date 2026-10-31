@@ -23,3 +23,16 @@
 新しいファイルを作った場合は `index.html` の script タグにも追加します。
 
 TOEIC レベルは学習の目安として付けたもので、公式の分類ではありません。
+
+## 広告の管理（管理者のみ）
+広告の内容は `ads.json` に保存され、`admin.html` から編集できます。保存は GitHub API でリポジトリに直接書き込むため、
+書き込み権限のあるトークンを持つ管理者だけが変更できます（閲覧者は管理画面を開けても保存できません）。
+
+1. GitHub で Fine-grained personal access token を作成する
+   - Repository access: このリポジトリのみ
+   - Permissions: Contents を Read and write
+2. `https://<ユーザー名>.github.io/eng_latien/admin.html` を開き、トークンを入力して「接続を確認」
+3. 枠ごとに「表示する」をオンにし、種類（テキスト／画像バナー／HTML コード）と内容を入力
+4. 「GitHub に保存して公開」を押す（1〜2分で反映）
+
+広告枠: ページ上部、辞書の検索結果の上、単語ページの例文の下、単語帳・テストの結果画面、ページ下部。

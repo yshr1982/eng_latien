@@ -315,6 +315,20 @@ a.card:hover { transform: translateY(-2px); border-color: var(--accent); }
 .review-list .mark.ok { color: var(--ok); }
 .review-list .mark.ng { color: var(--ng); }
 
+/* ---- Ads ---- */
+.ad-slot { margin: 16px 0; }
+.ad-slot:empty { display: none; }
+.ad-label { display: block; font-size: .7rem; color: var(--muted); margin-bottom: 4px; letter-spacing: .05em; }
+.ad-body {
+  display: block; text-decoration: none; background: var(--surface); border: 1px dashed var(--border);
+  border-radius: var(--radius); padding: 12px 14px; overflow: hidden;
+}
+a.ad-body:hover { border-color: var(--accent); }
+.ad-body img { display: block; max-width: 100%; height: auto; margin: 0 auto; border-radius: 6px; }
+.ad-title { display: block; }
+.ad-text { display: block; color: var(--muted); font-size: .9rem; }
+.ad-slot iframe { max-width: 100%; }
+
 .empty { text-align: center; color: var(--muted); padding: 40px 0; }
 
 @media (max-width: 560px) {
