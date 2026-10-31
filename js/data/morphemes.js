@@ -131,7 +131,7 @@ fort|root|la|fort,forc|fortis|強い
 fract|root|la|fract,frag|frangere / frāctus|壊す
 fund|root|la|fund,found|fundus|底・土台
 fus|root|la|fus,fuse,fund|fundere / fūsus|注ぐ
-gage|root|fr|gage|古仏 gage|誓約・担保
+gage|root|fr|gage,wage|古仏 gage|誓約・担保
 gen|root|la|gen,gin|genus / gignere|生まれ・種類・生む
 ger|root|la|gest,gist,gistr|gerere / gestus|運ぶ・行う
 grad|root|la|grad,grade,gress,gree|gradus / gradī|段階・歩む
