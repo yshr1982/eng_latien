@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "slots": {
+    "top": { "enabled": false, "type": "text", "label": "広告", "title": "", "text": "", "link": "", "image": "", "html": "" },
+    "home": { "enabled": false, "type": "text", "label": "広告", "title": "", "text": "", "link": "", "image": "", "html": "" },
+    "word": { "enabled": false, "type": "text", "label": "広告", "title": "", "text": "", "link": "", "image": "", "html": "" },
+    "result": { "enabled": false, "type": "text", "label": "広告", "title": "", "text": "", "link": "", "image": "", "html": "" },
+    "footer": { "enabled": false, "type": "text", "label": "広告", "title": "", "text": "", "link": "", "image": "", "html": "" }
+  }
+}
