@@ -109,7 +109,7 @@ qualify|資格を得る|動|qual+ify:fy||fr||2
 qualification|資格|名|qual+i:_+fic:fac+at:ate+ion||la||2
 qualified|資格のある|形|qual+ifi:fy+ed||fr||2
 quantity|量|名|quant+ity||fr||2
-salary|給料|名|sal+ary|塩の代金 → 給料|la|ラ salārium|1
+salary|給料|名|sal+ary|（一説に）塩の代金 → 給料|la|ラ salārium|1|「塩の代金（塩を買うための手当）」とする説は有力ですが確証はなく、塩の道の警備に対する報酬など他の説もあります。
 desperate|必死の|形|de+sper+ate|希望を失った|la||4
 budget|予算|名|budg:bouge+et|小さな革袋 → 財布 → 予算|fr|古仏 bougette|1
 engage|従事させる、関わらせる|動|en+gage|誓約の中に入れる → 約束させる → 従事させる|fr||2

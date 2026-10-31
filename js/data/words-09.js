@@ -2,9 +2,9 @@ LATIEN.addMorphemes(`
 deca|root|gr|dec|deka|10
 decor|root|la|decor|decor|飾り・ふさわしさ
 fend|root|la|fend,fens|-fendere|打つ・払いのける
-lega|root|la|leg|lēgāre|任せる・使者として送る
+lega|root|la|leg,league|lēgāre|任せる・使者として送る
 lai|root|fr|lay|古仏 laier|残す・放っておく
-lic|root|la|lic,light|lacere / dēlicere|誘い込む
+lic|root|la|lic,light|lacere / dēlicere|誘い込む|dēlicere との結びつきは推定を含みます。
 dens|root|la|dens|dēnsus|密な
 tail|root|fr|tail|古仏 taillier|切る
 teg|root|la|tect,teg|tegere / tēctus|覆う
@@ -253,7 +253,7 @@ interpreter|通訳者|名|inter+pret:preci+er||la||3
 interval|間隔|名|inter+val:vall|柵の間 → 間隔|la||4
 invite|招待する|動|invite:invit|招く|la||1
 invitation|招待（状）|名|invit+at:ate+ion||la||1
-isolate|孤立させる|動|isol:insula+ate|島にする → 孤立させる|fr|伊 isolato（島にされた）|4
+isolate|孤立させる|動|isol:insula+ate|島にする → 孤立させる|it|伊 isolato（島にされた）|4
 item|品目|名|item|同様に → 箇条 → 品目|la||1
 journal|日誌、専門誌|名|journ+al|日々の記録|fr||2
 journalist|記者|名|journ+al+ist||fr||2

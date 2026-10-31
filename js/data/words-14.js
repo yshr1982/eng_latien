@@ -15,7 +15,7 @@ advertiser|広告主|名|ad+vert:vers+is:ize+er||fr||3
 universe|宇宙|名|uni+verse:vers|一つに回るもの → 全世界|la||3
 investigator|調査員|名|in+vestig+at:ate+or||la||4
 vest|ベスト|名|vest|衣服|fr||3
-trivial|ささいな|形|tri+vi:via+al|三叉路の → ありふれた|la||4
+trivial|ささいな|形|tri+vi:via+al|三叉路の → ありふれた|la||4|「三叉路（人が集まる場所）の → ありふれた」という説明は後付けだとする見方もあります。
 evidently|明らかに|副|e:ex+vid+ent+ly||la||4
 provision|提供、条項|名|pro+vis:vid+ion|前もって備えること|la||4
 provisional|暫定的な|形|pro+vis:vid+ion+al||la||4

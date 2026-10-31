@@ -6,8 +6,8 @@ const LATIEN = {
   addMorphemes(text) {
     for (const line of text.split("\n")) {
       if (!line.trim()) continue;
-      const [id, type, lang, forms, origin, meaning] = line.split("|");
-      this.morphemes[id] = { type, lang, forms: forms.split(","), origin, meaning };
+      const [id, type, lang, forms, origin, meaning, note] = line.split("|");
+      this.morphemes[id] = { type, lang, forms: forms.split(","), origin, meaning, note };
     }
   },
   // 1行1例文: 単語|英文|和訳
@@ -21,9 +21,9 @@ const LATIEN = {
   addWords(text) {
     for (const line of text.split("\n")) {
       if (!line.trim()) continue;
-      const [w, ja, pos, parts, logic, via, route, lv] = line.split("|");
+      const [w, ja, pos, parts, logic, via, route, lv, note] = line.split("|");
       this.words.push({
-        w, ja, pos, logic, via, route,
+        w, ja, pos, logic, via, route, note,
         lv: Number(lv) || 2,
         parts: parts.split("+").map((p) => {
           const [t, id] = p.split(":");

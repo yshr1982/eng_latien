@@ -62,7 +62,7 @@ plang|root|la|plain|plangere|嘆く
 cel|root|la|ceal|cēlāre|隠す
 flig|root|la|flict|flīgere|打つ
 front|root|la|front|frōns|額・前面
-sider|root|la|sider,sire|sīdus|星
+sider|root|la|sider,sire|sīdus|星|「星（sīdus）」と結びつける説は有力ですが確定ではありません。
 solid|root|la|solid|solidus|固い
 consul|root|la|sult,sel|cōnsulere|相談する
 copi|root|la|copy|cōpia|豊富
@@ -219,10 +219,10 @@ conflict|対立|名|con+flict:flig|互いに打ち合う → 対立|la||3
 confront|直面する|動|con+front|額を突き合わせる → 直面する|fr||3
 front|前|名|front|額 → 前面|fr||1
 frontier|辺境、最先端|名|front+ier:_||fr||4
-consider|検討する|動|con+sider|星をよく見る → 熟考する|la|ラ cōnsīderāre|1
+consider|検討する|動|con+sider|（一説に）星をよく見る → 熟考する|la|ラ cōnsīderāre|1
 considerable|かなりの|形|con+sider+able|考慮すべき → かなりの|la||3
 consideration|考慮|名|con+sider+at:ate+ion||la||2
-desire|願望|名|de+sire:sider|星から離れて待ち望む → 願望|fr||3
+desire|願望|名|de+sire:sider|（一説に）星から離れて待ち望む → 願望|fr||3
 solid|固体の、しっかりした|形|solid||la||2
 consolidate|統合する|動|con+solid+ate|すっかり固める → 統合する|la||4
 consult|相談する|動|con+sult:consul|相談する|la||2

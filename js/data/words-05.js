@@ -129,7 +129,7 @@ directory|名簿|名|di:dis+rect:reg+ory|導くもの → 案内書 → 名簿|l
 correct|正しい；訂正する|形・動|cor:con+rect:reg|すっかりまっすぐにする|la||1
 correction|訂正|名|cor:con+rect:reg+ion||la||3
 interrupt|中断する|動|inter+rupt|間を壊す → 中断する|la||2
-bankrupt|破産した|形|bank:_+rupt|台（銀行）が壊れた → 破産した|fr|伊 banca rotta|3
+bankrupt|破産した|形|bank:_+rupt|台（銀行）が壊れた → 破産した|it|伊 banca rotta|3
 disrupt|混乱させる|動|dis+rupt|ばらばらに壊す|la||4
 disruption|混乱|名|dis+rupt+ion||la||4
 science|科学|名|sci+ence:ance|知ること → 知識 → 科学|fr||1
