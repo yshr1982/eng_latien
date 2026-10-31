@@ -555,7 +555,7 @@
       const opts = shuffle([w, ...distractorWords(w, 3)]);
       return {
         w, prompt: "この単語の意味は？",
-        body: `${segWord(w.parts)}${miniParts(w)}`,
+        body: segWord(w.parts), // パーツの原意は答え合わせ時のみ表示
         choices: opts.map((o) => ({ label: o.ja, ok: o === w })), en: false,
       };
     }
