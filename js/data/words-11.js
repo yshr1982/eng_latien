@@ -69,7 +69,7 @@ strategy|戦略|名|strateg+y|将軍の術 → 戦略|gr||2
 strategic|戦略的な|形|strateg+ic||gr||3
 study|勉強；研究する|名・動|stud+y|熱心に取り組むこと → 研究|fr||1
 student|学生|名|stud+ent||la||1
-studio|スタジオ|名|stud+io:_||la||2
+studio|スタジオ|名|stud+io:_||it|伊 studio ← ラ studium|2
 style|様式|名|styl+e:_|尖筆 → 書きぶり → 様式|fr||1
 stylish|おしゃれな|形|styl+ish:_||fr||3
 suburb|郊外|名|sub+urb|都市の下（周辺）|la||2

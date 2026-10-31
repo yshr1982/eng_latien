@@ -64,7 +64,7 @@ prejudice|偏見|名|pre+jud+ice|前もって下す判断 → 偏見|fr||4
 join|参加する、加わる|動|join:junct|結ぶ → 加わる|fr|古仏 joindre ← ラ iungere|1
 joint|共同の|形|joint:junct|結ばれた → 共同の|fr||2
 junction|交差点|名|junct+ion||la||4
-adjust|調整する|動|ad+just:jur|正しくする → 調整する|fr|古仏 ajuster|2
+adjust|調整する|動|ad+just:jur|（後の連想では）正しくする → 調整する|fr|古仏 ajuster|2|実際の語源は ad + iuxtā（すぐそばに）とされ、justus（正しい）と結びつけたのは後の連想だという説が有力です。
 adjustment|調整|名|ad+just:jur+ment||fr||2
 adjustable|調整できる|形|ad+just:jur+able||fr||3
 just|ちょうど；公正な|副・形|just:jur|正しい|fr||1
@@ -90,7 +90,7 @@ legislation|法律制定|名|leg:lex+is:_+lat+ion|法を運ぶこと → 立法|
 collect|集める|動|col:con+lect:leg|共に選び取る → 集める|la||1
 collection|収集、コレクション|名|col:con+lect:leg+ion||la||2
 collective|集団の|形|col:con+lect:leg+ive||la||4
-colleague|同僚|名|col:con+league:leg|共に選ばれた者 → 同僚|fr|仏 collègue ← ラ collēga|1
+colleague|同僚|名|col:con+league:lega|共に任命された者 → 同僚|fr|仏 collègue ← ラ collēga（com + lēgāre「任命する」）|1
 select|選ぶ|動|se+lect:leg|離して選ぶ → 選び出す|la||2
 selection|品ぞろえ、選択|名|se+lect:leg+ion||la||2
 selective|選択的な|形|se+lect:leg+ive||la||4
@@ -148,7 +148,7 @@ major|主要な；専攻|形・名|maj:magn+or|より大きい → 主要な|la|
 majority|大多数|名|maj:magn+or+ity||la||2
 mayor|市長|名|may:magn+or|より大きい者 → 市長|fr||2
 manual|手引書；手動の|名・形|manu+al|手の → 手で持つ本 → 手引書|la||2
-manage|管理する|動|man:manu+age|手で扱う → 管理する|fr|伊 maneggiare|1
+manage|管理する|動|man:manu+age|手で扱う → 管理する|it|伊 maneggiare|1
 management|経営、経営陣|名|man:manu+age+ment||fr||1
 manager|管理者|名|man:manu+ag:age+er||fr||1
 managerial|管理職の|形|man:manu+ag:age+er:_+ial:al||fr||4

@@ -6,9 +6,9 @@
   const WORDS = LATIEN.words;
   const EXAMPLES = LATIEN.examples;
   const TYPE_LABEL = { prefix: "接頭辞", root: "語根", suffix: "接尾辞" };
-  const LANG_SHORT = { la: "ラ", fr: "仏", gr: "希", en: "英" };
-  const LANG_LABEL = { la: "ラテン語", fr: "フランス語", gr: "ギリシャ語", en: "英語（ゲルマン系）" };
-  const VIA_LABEL = { la: "ラテン語から", fr: "フランス語経由", gr: "ギリシャ語から", en: "英語本来の語" };
+  const LANG_SHORT = { la: "ラ", fr: "仏", it: "伊", es: "西", gr: "希", en: "英" };
+  const LANG_LABEL = { la: "ラテン語", fr: "フランス語", it: "イタリア語", es: "スペイン語", gr: "ギリシャ語", en: "英語（ゲルマン系）" };
+  const VIA_LABEL = { la: "ラテン語から", fr: "フランス語経由", it: "イタリア語経由", es: "スペイン語経由", gr: "ギリシャ語から", en: "英語本来の語" };
   const LV_LABEL = { 1: "600", 2: "730", 3: "860", 4: "990" };
   const PAGE = 60;
   const WORD_MAP = Object.fromEntries(WORDS.map((w) => [w.w, w]));
@@ -86,6 +86,12 @@
       return t.startsWith(stem) && t.length <= w.w.length + 4 ? `<mark>${esc(tok)}</mark>` : esc(tok);
     }).join("");
     return `<div class="${cls}"><p class="ex-en">${en}</p><p class="ex-ja">${esc(ex.ja)}</p></div>`;
+  }
+  // 諸説ある語源の注記（単語とパーツの両方から集める）
+  function notesHtml(w) {
+    const notes = [w.note, ...realParts(w).map(([, id]) => MORPHEMES[id].note && `${MORPHEMES[id].forms[0].replace(/-/g, "")}：${MORPHEMES[id].note}`)]
+      .filter((n, i, a) => n && a.indexOf(n) === i);
+    return notes.map((n) => `<p class="note">※ 諸説あり：${esc(n)}</p>`).join("");
   }
   // 「dis-（離れて）＋ close（閉じる）」のような式
   function formula(w) {
@@ -254,6 +260,7 @@
       <span class="b-part">${esc(text)}</span>
       <span class="b-origin">${esc(m.origin)}</span>
       <span class="b-meaning">${esc(m.meaning)}</span>
+      ${m.note ? '<span class="b-note">※ 諸説あり</span>' : ""}
     </a>`;
   }
   function viewWord(name) {
@@ -290,6 +297,7 @@
       <div class="panel"><h3>原意から読む</h3>
         <p class="formula-line">${esc(formula(w))}</p>
         ${w.logic ? `<p class="logic">→ ${esc(w.logic)}</p>` : ""}
+        ${notesHtml(w)}
       </div>
       ${EXAMPLES[w.w] ? `<div class="panel"><h3>例文</h3>${exampleHtml(w)}</div>` : ""}
       <div class="ad-slot" data-ad="word"></div>
@@ -308,7 +316,7 @@
   function viewParts() {
     app.innerHTML = `<h1 class="page-title">パーツ一覧</h1>
       <p class="lead">同じパーツを持つ単語をまとめて覚えると、初めて見る単語も推測できるようになります。</p>
-      ${chipGroup("lang", [["all", "すべて"], ...Object.keys(LANG_LABEL).map((k) => [k, `${langBadge(k)}${LANG_LABEL[k]}`])], partsOpt.lang)}
+      ${chipGroup("lang", [["all", "すべて"], ...Object.keys(LANG_LABEL).filter((k) => Object.values(MORPHEMES).some((m) => m.lang === k)).map((k) => [k, `${langBadge(k)}${LANG_LABEL[k]}`])], partsOpt.lang)}
       <div id="groups"></div>`;
     const draw = () => {
       app.querySelector("#groups").innerHTML = ["prefix", "root", "suffix"].map((type) => {

@@ -29,6 +29,7 @@ longus|root|la|long|longus|長い
 prot|root|gr|prot|prōtos|最初の
 chron|root|gr|chron|chronos|時
 therm|root|gr|therm|thermē|熱
+statgr|root|gr|stat|statos|立った・止まった
 metr|root|gr|meter,metr|metron|ものさし・測る
 onym|root|gr|onym|onyma|名前
 gnos|root|gr|gno|gnōsis|知ること
@@ -73,7 +74,7 @@ appraisal|評価、査定|名|ap:ad+prais:preci+al|～に値をつけること|f
 aquarium|水族館|名|aqua+r:_+ium:um|水の場所|la||1
 aquatic|水生の|形|aqua+t:_+ic||la||4
 atmosphere|雰囲気、大気|名|atmo:atmos+sphere|蒸気の球 → 大気 → 雰囲気|gr||3
-bank|銀行|名|bank:banc|両替商の台 → 銀行|fr|伊 banca|1
+bank|銀行|名|bank:banc|両替商の台 → 銀行|it|伊 banca（両替商の台）、仏 banque 経由とも|1
 banquet|宴会|名|banqu:banc+et|小さな長椅子 → 宴会|fr||2
 capsule|カプセル|名|caps+ule:cle|小さな箱|la||4
 citizen|市民|名|cit:civ+izen:_||fr||2
@@ -153,7 +154,7 @@ synchronize|同期する|動|syn+chron+ize|時を共にする|gr||4
 telecommute|在宅勤務する|動|tele+com:con+mute:mut|遠くから通う|gr||3
 telescope|望遠鏡|名|tele+scope:scop|遠くを見る道具|gr||3
 thermometer|温度計|名|therm+o:_+meter:metr|熱を測るもの|gr||3
-thermostat|温度調節器|名|therm+o:_+stat:sist|熱を一定に保つもの|gr||4
+thermostat|温度調節器|名|therm+o:_+stat:statgr|熱を一定に保つもの|gr||4
 meter|メートル、計器|名|meter:metr|ものさし|gr||2
 diameter|直径|名|dia+meter:metr|横切って測る長さ|gr||4
 geometry|幾何学|名|geo+metr+y|土地を測ること|gr||4

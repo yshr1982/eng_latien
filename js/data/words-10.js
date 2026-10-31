@@ -48,7 +48,7 @@ rap|root|la|rap|rapere|つかみ取る
 rar|root|la|rar|rārus|まばらな
 res|root|la|real,re|rēs|物・事柄
 recens|root|la|recent|recēns|新しい
-fresh|root|fr|fresh|古仏 freis（← ゲルマン語）|新鮮な
+fresh|root|en|fresh|古英 fersc（古仏 freis も影響）|新鮮な
 bursa|root|gr|burse|byrsa|革袋 → 財布
 marq|root|fr|mark|仏 marquer|しるしを付ける
 plat|root|gr|place,plac|plateia|広い通り・場所
@@ -153,7 +153,7 @@ polite|礼儀正しい|形|polit:polir+e:_|磨かれた → 洗練された|la||
 polish|磨く|動|polish:polir|磨く|fr||3
 pollution|汚染|名|pollu+t:_+ion||la||2
 pollute|汚染する|動|pollu+te:ate||la||3
-portfolio|作品集|名|port+foli:folium+o:_|紙を運ぶもの → 書類入れ|fr|伊 portafoglio|3
+portfolio|作品集|名|port+foli:folium+o:_|紙を運ぶもの → 書類入れ|it|伊 portafoglio|3
 possible|可能な|形|poss:pot+ible:able||la||1
 possibility|可能性|名|poss:pot+ibil:able+ity||la||2
 possibly|もしかすると|副|poss:pot+ib:able+ly||la||2
@@ -189,9 +189,9 @@ realize|気づく、実現する|動|real:res+ize|実在のものにする → �
 realistic|現実的な|形|real:res+ist+ic||la||3
 recent|最近の|形|recent:recens||la||1
 recently|最近|副|recent:recens+ly||la||1
-recover|回復する|動|re+cover:cap|取り戻す|fr|古仏 recovrer ← ラ recuperāre|2
+recover|回復する|動|re+cover:cap|取り戻す|fr|古仏 recovrer ← ラ recuperāre|2|recuperāre が capere（取る）と同じ語根かどうかは確定していません。
 recovery|回復|名|re+cover:cap+y||fr||3
-refresh|元気づける|動|re+fresh|再び新鮮にする|fr||3
+refresh|元気づける|動|re+fresh|再び新鮮にする|fr|古仏 refreschir（re- + fresche）|3
 refreshments|軽食|名|re+fresh+ment+s:_|元気づけるもの → 軽食|fr||2
 reimburse|払い戻す|動|re+im:in+burse:bursa|再び財布に入れる → 払い戻す|la||3
 reimbursement|払い戻し|名|re+im:in+burse:bursa+ment||la||4

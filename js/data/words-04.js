@@ -46,7 +46,7 @@ mode|方式|名|mod+e:_||la||3
 monitor|モニター；監視する|名・動|mon+it:_+or|警告する者 → 監視する|la||2
 demonstrate|実演する|動|de+monstr:mon+ate|すっかり示す → 実演する|la||2
 demonstration|実演|名|de+monstr:mon+at:ate+ion||la||2
-mortgage|住宅ローン|名|mort+gage|死んだ誓約 → 抵当|fr|古仏 mort gage「死んだ担保」|3
+mortgage|住宅ローン|名|mort+gage|死んだ誓約 → 抵当|fr|古仏 mort gage「死んだ担保」|3|「死んだ」の意味を「返済すると誓約が消える」「返せないと土地が失われる」のどちらと解するかには諸説あります。
 multiple|複数の|形|mult+iple:plic|何重にも折った → 多数の|la||3
 multinational|多国籍の|形|multi+nat+ion+al||la||3
 communicate|伝達する|動|com:con+mun+ic:_+ate|共有する → 伝える|la||2

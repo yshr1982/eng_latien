@@ -118,6 +118,10 @@ h2 { font-size: 1.2rem; margin: 32px 0 12px; }
 .lang.fr { background: var(--fr); }
 .lang.gr { background: var(--gr); }
 .lang.en { background: var(--en); }
+.lang.it { background: #2e7d6b; }
+.lang.es { background: #a8572b; }
+.note { font-size: .78rem; color: var(--muted); margin: 6px 0 0 !important; line-height: 1.6; }
+.b-note { font-size: .7rem; color: var(--muted); }
 .lv {
   display: inline-block; font-size: .68rem; font-weight: 700; line-height: 1; padding: 3px 6px;
   border-radius: 999px; border: 1px solid var(--border); color: var(--muted); vertical-align: middle; white-space: nowrap;
