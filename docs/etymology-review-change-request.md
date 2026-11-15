@@ -236,3 +236,17 @@ LATIEN.addEvidence([
 - prestigious: `stigi:_` → praestringere（`string`）。
 - double、triple、multiple、simple: -plus／-plex は plicāre の同族語であり、plicāre そのものではない旨をパーツに明記。
 - `gage`、`rang`、`gard` など仏語パーツのうちフランク語起源のものは、元の語形欄の書き方を統一する。
+
+## 7. レビュー結果と確定した修正方針（実装前の確認）
+
+1〜6 章の指摘を確認し、すべて妥当と判断した。そのうえで次の 7 点を追加・修正し、実装の確定方針とする。
+
+| # | 内容 | 方針 |
+|---|---|---|
+| A-1 | **perform の誤り（追加）**: perform、performance、performer、outperform、underperform の 5 語は `form`（fōrma）に分類されているが、アングロ仏 parfourmer ← 古仏 parfornir（par + fornir 供給する）で、form の綴りは forme の影響による後世の変形（OED s.v. *perform*） | 語根を既存の `furn`（古仏 fornir）に変更し、`furn` の形に `form` を追加。論拠は `kind: "blend"` で登録 |
+| A-2 | **bid の混交（追加）**: 古英 biddan（求める）と bēodan（申し出る）が合流しており、「値を付ける」の意味は bēodan 由来（OED s.v. *bid* v.） | 分解は変更せず、bid と bidder に `blend` の論拠を登録 |
+| A-3 | **C-1 の綴り限定は機能しない**: proposal、exposure、disposal、disposable は綴り `pos` で、position、deposit、opposite と同じため、`forms: ["pose"]` では限定できない | `evidence.target` に配列を許可し、C-1 の 13 語を単語単位で指定する。`forms` は残す |
+| A-4 | **C-19 は諸説ではなく誤り**: servāre（保つ）と servīre（仕える）は別の動詞 | `servire`（serve、service、server、deserve、dessert、concierge）と `servare`（reserve、reserved、reservation、reservoir、preserve、preservation、observe、observation、conservation、conservative）に分割する。3 章の B-10 として扱う |
+| A-5 | **verified の扱い** | 実装時点では全件 `null`。原典を確認していない者（AI を含む）は日付を入れない。このため画面に出るのは種別ラベルと summary だけで、出典は原典確認後に表示される |
+| A-6 | **R11（GitHub Actions）** | ワークフローファイルのプッシュが権限で拒否された場合は、そのファイルを除いて報告する |
+| A-7 | **結合テスト** | `tests/integration.js` を Playwright（環境に導入済み）で作り、`index.html` を file:// で開いて 5.5 の受け入れ基準 1〜7 を自動検証する |
