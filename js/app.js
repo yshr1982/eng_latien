@@ -87,12 +87,50 @@
     }).join("");
     return `<div class="${cls}"><p class="ex-en">${en}</p><p class="ex-ja">${esc(ex.ja)}</p></div>`;
   }
-  // 諸説ある語源の注記（単語とパーツの両方から集める）
-  function notesHtml(w) {
-    const notes = [w.note, ...realParts(w).map(([, id]) => MORPHEMES[id].note && `${MORPHEMES[id].forms[0].replace(/-/g, "")}：${MORPHEMES[id].note}`)]
-      .filter((n, i, a) => n && a.indexOf(n) === i);
-    return notes.map((n) => `<p class="note">※ 諸説あり：${esc(n)}</p>`).join("");
+  // ---------- 論拠（語源の注記） ----------
+  const KIND_LABEL = { disputed: "諸説あり", uncertain: "語源不詳（推定を含む）", blend: "二つの語が合流", spelling: "綴りは後世の変更" };
+  const STANCE_LABEL = { adopted: "採用", alternative: "対立説", rejected: "通俗語源" };
+  const STANCE_ORDER = ["adopted", "alternative", "rejected"];
+  const SOURCE_TYPE_LABEL = { paper: "論文", dictionary: "辞書", primary: "一次史料" };
+  const EVIDENCE = LATIEN.evidence;
+  const SOURCES = LATIEN.sources;
+  // 注記 e が、綴り t のパーツ id に適用されるか
+  const formOk = (e, t) => !e.forms.length || t === undefined || e.forms.includes(t);
+  function evidenceForWord(w) {
+    return EVIDENCE.filter((e) => e.targets.some((t) => {
+      if (t === `w:${w.w}`) return true;
+      if (!t.startsWith("m:")) return false;
+      const id = t.slice(2);
+      return realParts(w).some(([pt, pid]) => pid === id && formOk(e, pt));
+    }));
   }
+  function evidenceForMorpheme(id, text) {
+    return EVIDENCE.filter((e) => e.targets.includes(`m:${id}`) && formOk(e, text));
+  }
+  const italic = (s) => esc(s).replace(/\*([^*]+)\*/g, "<em>$1</em>");
+  function refHtml(ref) {
+    const src = SOURCES[ref.src];
+    const label = src ? src.label : ref.src;
+    return `<a class="ref" href="#/sources/${encodeURIComponent(ref.src)}">${esc(label)}, ${italic(ref.loc || "")}</a>`;
+  }
+  function evidenceHtml(list) {
+    return list.map((e) => {
+      let detail = "";
+      if (e.verified) {
+        const items = STANCE_ORDER.flatMap((st) => e.claims.filter((c) => c.stance === st));
+        detail = `<details class="ev-claims"><summary>根拠を見る</summary><ol>${items.map((c) =>
+          `<li><span class="stance ${c.stance}">${STANCE_LABEL[c.stance]}</span> ${esc(c.text)} <span class="refs">${c.refs.map(refHtml).join("、")}</span></li>`).join("")}</ol>
+          <p class="ev-verified">原典確認: ${esc(e.verified)}</p></details>`;
+      }
+      return `<div class="ev ev-${e.kind}"><p class="note"><span class="ev-kind">${KIND_LABEL[e.kind]}</span> ${esc(e.summary)}</p>${detail}</div>`;
+    }).join("");
+  }
+  const evidenceBrief = (list) => list.map((e) =>
+    `<p class="note"><span class="ev-kind">${KIND_LABEL[e.kind]}</span> ${esc(e.summary)}</p>`).join("");
+  const kindLabels = (list) => [...new Set(list.map((e) => e.kind))]
+    .map((k) => `<span class="ev-kind">${KIND_LABEL[k]}</span>`).join(" ");
+  // 「パーツの原意」問題を出さない単語（語源不詳の注記があるもの）
+  const blockedForPartQuiz = (w) => evidenceForWord(w).some((e) => e.kind === "uncertain");
   // 「dis-（離れて）＋ close（閉じる）」のような式
   function formula(w) {
     return realParts(w).map(([t, id]) => `${t}（${MORPHEMES[id].meaning}）`).join(" ＋ ");
@@ -128,6 +166,7 @@
     [/^#\/p\/(.+)$/, (m) => viewPart(decodeURIComponent(m[1]))],
     [/^#\/cards$/, viewCardsSetup],
     [/^#\/test$/, viewTestSetup],
+    [/^#\/sources(?:\/(.+))?$/, (m) => viewSources(m[1] ? decodeURIComponent(m[1]) : null)],
   ];
   let cleanup = null;
   function render() {
@@ -139,7 +178,7 @@
     }
     const section = hash.startsWith("#/parts") || hash.startsWith("#/p/") ? "parts"
       : hash.startsWith("#/cards") ? "cards"
-      : hash.startsWith("#/test") ? "test" : "home";
+      : hash.startsWith("#/test") ? "test" : hash.startsWith("#/sources") ? "" : "home";
     document.querySelectorAll("[data-nav]").forEach((a) => a.classList.toggle("active", a.dataset.nav === section));
     window.scrollTo(0, 0);
   }
@@ -253,14 +292,15 @@
   }
 
   // ---------- 単語詳細 ----------
-  function blockHtml(text, id) {
+  function blockHtml(text, id, forText) {
     const m = MORPHEMES[id];
+    const ev = evidenceForMorpheme(id, forText);
     return `<a class="block ${m.type}" href="#/p/${encodeURIComponent(id)}">
       <span class="b-type">${TYPE_LABEL[m.type]} ${langBadge(m.lang)}</span>
       <span class="b-part">${esc(text)}</span>
       <span class="b-origin">${esc(m.origin)}</span>
       <span class="b-meaning">${esc(m.meaning)}</span>
-      ${m.note ? '<span class="b-note">※ 諸説あり</span>' : ""}
+      ${ev.length ? `<span class="b-note">※ ${KIND_LABEL[ev[0].kind]}</span>` : ""}
     </a>`;
   }
   function viewWord(name) {
@@ -292,12 +332,12 @@
         </div>
         <button class="star ${isStarred(w.w) ? "on" : ""}" id="star">${isStarred(w.w) ? "★ 単語帳に登録済み" : "☆ 単語帳に追加"}</button>
       </div>
-      <div class="breakdown">${realParts(w).map(([t, id]) => blockHtml(t, id)).join('<span class="plus">+</span>')}</div>
+      <div class="breakdown">${realParts(w).map(([t, id]) => blockHtml(t, id, t)).join('<span class="plus">+</span>')}</div>
       ${conns.length ? `<p class="conn-note">灰色の「${conns.map(esc).join("」「")}」は発音や綴りを整えるつなぎの文字です。</p>` : ""}
       <div class="panel"><h3>原意から読む</h3>
         <p class="formula-line">${esc(formula(w))}</p>
         ${w.logic ? `<p class="logic">→ ${esc(w.logic)}</p>` : ""}
-        ${notesHtml(w)}
+        ${evidenceHtml(evidenceForWord(w))}
       </div>
       ${EXAMPLES[w.w] ? `<div class="panel"><h3>例文</h3>${exampleHtml(w)}</div>` : ""}
       <div class="ad-slot" data-ad="word"></div>
@@ -346,8 +386,26 @@
     app.innerHTML = `
       <a class="back" href="#/parts">← パーツ一覧に戻る</a>
       <div class="breakdown">${blockHtml(m.forms.join(" / "), id)}</div>
+      ${evidenceForMorpheme(id).length ? `<div class="panel"><h3>語源について</h3>${evidenceHtml(evidenceForMorpheme(id))}</div>` : ""}
       <h2>このパーツを含む単語（${list.length} 語）</h2>
       <div class="grid">${list.map(wordCard).join("")}</div>`;
+  }
+
+  // ---------- 出典一覧 ----------
+  function viewSources(focusId) {
+    const groups = ["paper", "dictionary", "primary"].map((type) => {
+      const list = Object.values(SOURCES).filter((x) => x.type === type);
+      if (!list.length) return "";
+      return `<h2>${SOURCE_TYPE_LABEL[type]}</h2><ul class="sources-list">${list.map((x) => `
+        <li id="src-${esc(x.id)}" class="${x.id === focusId ? "focus" : ""}"><b>${esc(x.label)}</b> ${esc(x.bib)}${x.publisher ? `. ${esc(x.publisher)}` : ""}${x.year ? `, ${esc(x.year)}` : ""}${x.url ? ` <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.url)}</a>` : ""}</li>`).join("")}</ul>`;
+    }).join("");
+    app.innerHTML = `<h1 class="page-title">出典一覧</h1>
+      <p class="lead">語源の注記で参照している文献です。原典確認日が記録された項目だけ、単語ページの「根拠を見る」に出典が表示されます。</p>
+      ${groups}`;
+    if (focusId) {
+      const el = document.getElementById(`src-${focusId}`);
+      if (el && el.scrollIntoView) el.scrollIntoView();
+    }
   }
 
   // ---------- 対象範囲 ----------
@@ -439,6 +497,7 @@
         <div class="answer">${esc(w.ja)}</div>
         ${miniParts(w)}
         ${w.logic ? `<p class="logic">${esc(w.logic)}</p>` : ""}
+        ${evidenceForWord(w).length ? `<p class="note">${kindLabels(evidenceForWord(w))}</p>` : ""}
         ${exampleHtml(w, "example compact")}`;
       app.innerHTML = `
         <a class="back" href="#/cards">← 単語帳の設定に戻る</a>
@@ -525,15 +584,19 @@
            ・<b>原意 → 単語</b>：パーツの原意の組み合わせから、英単語を選ぶ<br>
            ・<b>パーツの原意</b>：単語の中のパーツが元々どんな意味だったかを選ぶ</p>
       </div>`;
+    const testPool = () => {
+      const pool = scopeWords(testOpt.scope, testOpt.lv);
+      return testOpt.kind === "part" ? pool.filter((w) => !blockedForPartQuiz(w)) : pool;
+    };
     const updateN = () => {
-      const n = scopeWords(testOpt.scope, testOpt.lv).length;
+      const n = testPool().length;
       app.querySelector("#n").textContent = n ? `対象 ${n.toLocaleString()} 語` : "対象の単語がありません";
       app.querySelector("#start").disabled = n === 0;
     };
     bindChips(app, (k, v) => { testOpt[k] = v; updateN(); });
     updateN();
     app.querySelector("#start").addEventListener("click", () => {
-      const pool = scopeWords(testOpt.scope, testOpt.lv);
+      const pool = testPool();
       const n = Math.min(Number(testOpt.count), pool.length);
       runTest(shuffle(pool).slice(0, n).map((w) => makeQuestion(w, testOpt.kind)));
     });
@@ -558,7 +621,9 @@
     return out.slice(0, n);
   }
   function makeQuestion(w, kind) {
-    const k = kind === "mix" ? pick(["meaning", "word", "part"], 1)[0] : kind;
+    const blocked = blockedForPartQuiz(w);
+    let k = kind === "mix" ? pick(blocked ? ["meaning", "word"] : ["meaning", "word", "part"], 1)[0] : kind;
+    if (k === "part" && blocked) k = "meaning";
     if (k === "meaning") {
       const opts = shuffle([w, ...distractorWords(w, 3)]);
       return {
@@ -639,6 +704,7 @@
           <div class="res ${ok ? "ok" : "ng"}">${ok ? "正解！" : "不正解"}</div>
           <div>${segWord(q.w.parts)} <span>${esc(q.w.ja)}</span></div>
           <p style="margin:6px 0 0">${esc(formula(q.w))}${q.w.logic ? `<br>→ ${esc(q.w.logic)}` : ""}</p>
+          ${evidenceBrief(evidenceForWord(q.w))}
           ${exampleHtml(q.w, "example compact")}
         </div>
         <div class="btn-row"><button class="btn primary" id="next">${i + 1 < qs.length ? "次の問題へ" : "結果を見る"}</button></div>`;
@@ -674,6 +740,7 @@
     draw();
   }
 
+  LATIEN.debug = { makeQuestion, WORD_MAP, evidenceForWord };
   render();
   if (typeof LatienAds !== "undefined") LatienAds.load();
 })();

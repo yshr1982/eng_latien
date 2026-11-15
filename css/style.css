@@ -343,3 +343,18 @@ a.ad-body:hover { border-color: var(--accent); }
   .breakdown { flex-direction: column; }
   .block { flex: none; }
 }
+
+/* 論拠（語源の注記） */
+.ev { margin: 6px 0 0; }
+.ev .note { margin: 0 !important; }
+.ev-kind { display: inline-block; font-size: .7rem; font-weight: 700; color: var(--accent); background: var(--accent-soft); border-radius: 4px; padding: 0 6px; margin-right: 4px; }
+details.ev-claims { font-size: .82rem; color: var(--muted); margin: 4px 0 0; }
+details.ev-claims > summary { cursor: pointer; color: var(--accent); }
+details.ev-claims ol { margin: 6px 0 0; padding-left: 1.3em; line-height: 1.7; }
+.stance { display: inline-block; font-size: .68rem; font-weight: 700; border-radius: 4px; padding: 0 6px; background: var(--surface-2); border: 1px solid var(--border); }
+.stance.adopted { color: var(--accent); border-color: var(--accent); }
+.stance.rejected { text-decoration: line-through; }
+.refs a.ref, .refs .ref { color: var(--accent); }
+.ev-verified { margin: 4px 0 0; font-size: .72rem; }
+.sources-list { padding-left: 1.2em; line-height: 1.8; }
+.sources-list li.focus { background: var(--accent-soft); border-radius: 6px; padding: 2px 6px; }
