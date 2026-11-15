@@ -109,7 +109,7 @@ qualify|資格を得る|動|qual+ify:fy||fr||2
 qualification|資格|名|qual+i:_+fic:fac+at:ate+ion||la||2
 qualified|資格のある|形|qual+ifi:fy+ed||fr||2
 quantity|量|名|quant+ity||fr||2
-salary|給料|名|sal+ary|（一説に）塩の代金 → 給料|la|ラ salārium|1|「塩の代金（塩を買うための手当）」とする説は有力ですが確証はなく、塩の道の警備に対する報酬など他の説もあります。
+salary|給料|名|sal+ary|（一説に）塩の代金 → 給料|la|ラ salārium|1
 desperate|必死の|形|de+sper+ate|希望を失った|la||4
 budget|予算|名|budg:bouge+et|小さな革袋 → 財布 → 予算|fr|古仏 bougette|1
 engage|従事させる、関わらせる|動|en+gage|誓約の中に入れる → 約束させる → 従事させる|fr||2
@@ -165,8 +165,8 @@ criteria|基準|名|crit:krin+er:_+ia:_|判断の手段 → 基準|gr||4
 analysis|分析|名|ana+ly:lys+sis|すっかりほどくこと → 分析|gr||2
 analyze|分析する|動|ana+ly:lys+ze:ize||gr||2
 analyst|アナリスト|名|ana+ly:lys+st:ist||gr||3
-emphasis|強調|名|em:en+pha+sis|中に現して見せること → 強調|gr||3
-emphasize|強調する|動|em:en+pha+s:_+ize||gr||2
+emphasis|強調|名|em:en_gr+pha+sis|中に現して見せること → 強調|gr||3
+emphasize|強調する|動|em:en_gr+pha+s:_+ize||gr||2
 period|期間|名|peri+od:_|周りを回る道 → 一巡り → 期間|gr||1
 periodical|定期刊行物|名|peri+od:_+ic+al||gr||4
 method|方法|名|met:meta+hod:_|後を追う道 → 方法|gr||2

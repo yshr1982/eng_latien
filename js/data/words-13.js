@@ -24,7 +24,7 @@ insecure|不安な|形|in:inneg+se+cure:cur||la||4
 securely|しっかりと|副|se+cure:cur+ly||la||3
 securities|有価証券|名|se+cur+iti:ity+es:_|安全の保証 → 証券|la||4
 recurring|繰り返し起こる|形|re+cur:curr+r:_+ing||la||4
-corridor|廊下|名|corrid:curr+or|走る通路|fr||2
+corridor|廊下|名|corrid:curr+or|走る通路|it|伊 corridore|2
 index|索引、指数|名|in+dex:dic|指し示すもの|la||3
 pardon|許す|動|par:per+don|すっかり与える → 許す|fr||3
 reproduction|複製、再現|名|re+pro+duct:duc+ion||la||4
@@ -130,9 +130,9 @@ connectivity|接続性|名|con+nect:nec+iv:ive+ity||la||4
 denial|否定|名|de+ni:neg+al||fr||4
 nominee|指名された人|名|nomin:nom+ee||la||4
 nominal|名ばかりの、わずかな|形|nomin:nom+al||la||4
-notably|特に|副|not+ab:able+ly||la||4
-notion|考え|名|not+ion||la||4
-noted|著名な|形|not+ed||la||4
+notably|特に|副|not:nota+ab:able+ly||la||4
+notion|考え|名|not:nosc+ion||la||4
+noted|著名な|形|not:nota+ed||la||4
 novice|初心者|名|nov+ice|新しい人|la||4
 novelty|目新しさ|名|nov+el:_+ty:ity||la||4
 operating|営業の、運用の|形|oper+at:ate+ing||la||3
@@ -226,9 +226,9 @@ prosecute|起訴する|動|pro+secu:sequ+te:ate|前へ追いかける|la||4
 execution|実行|名|exe:ex+cut:sequ+ion||la||4
 suitcase|スーツケース|名|suit:sequ+case:caps|揃いの服を入れる箱|fr||1
 pursuit|追求|名|pur+suit:sequ||fr||4
-server|サーバー、給仕係|名|serv+er||fr||2
-reservoir|貯水池|名|re+serv+oir:ory|取っておく場所|fr||4
-preservation|保存|名|pre+serv+at:ate+ion||la||4
+server|サーバー、給仕係|名|serv:servire+er||fr||2
+reservoir|貯水池|名|re+serv:servare+oir:ory|取っておく場所|fr||4
+preservation|保存|名|pre+serv:servare+at:ate+ion||la||4
 designation|指定|名|de+sign+at:ate+ion||la||4
 signage|標識類|名|sign+age||fr||4
 simulate|模擬実験する|動|simul:simil+ate|似せる|la||4

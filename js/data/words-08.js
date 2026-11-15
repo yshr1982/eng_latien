@@ -5,7 +5,7 @@ celer|root|la|celer|celer|速い
 put|root|la|put,count|putāre|考える・計算する
 cumul|root|la|cumul|cumulus|積み重ね
 jac|root|la|jac|iacēre|横たわる
-avant|root|fr|vance,vant|古仏 avant（← ラ ab ante）|前に
+avant|root|fr|vance,vant,advance,advanc,advant|古仏 avant（← ラ ab ante）|前に
 fili|root|la|fili|fīlius|息子・子
 juv|root|la|aid|iuvāre|助ける
 estim|root|la|estim,aim|aestimāre|値を見積もる
@@ -62,7 +62,7 @@ plang|root|la|plain|plangere|嘆く
 cel|root|la|ceal|cēlāre|隠す
 flig|root|la|flict|flīgere|打つ
 front|root|la|front|frōns|額・前面
-sider|root|la|sider,sire|sīdus|星|「星（sīdus）」と結びつける説は有力ですが確定ではありません。
+sider|root|la|sider,sire|sīdus|星
 solid|root|la|solid|solidus|固い
 consul|root|la|sult,sel|cōnsulere|相談する
 copi|root|la|copy|cōpia|豊富
@@ -90,9 +90,9 @@ reputation|評判|名|re+put+at:ate+ion|繰り返し考えられること → �
 reputable|評判のよい|形|re+put+able||la||4
 accumulate|蓄積する|動|ac:ad+cumul+ate|積み重ねる|la||4
 adjacent|隣接した|形|ad+jac+ent|そばに横たわっている → 隣接した|la||4
-advance|前進；前もっての|名・形|ad+vance:avant|前へ進む → 前進|fr|古仏 avancier|1
-advanced|進んだ、上級の|形|ad+vanc:avant+ed||fr||2
-advantage|利点|名|ad+vant:avant+age|前にいること → 有利|fr|古仏 avantage|2
+advance|前進；前もっての|名・形|advance:avant|前へ進む → 前進|fr|古仏 avancier|1
+advanced|進んだ、上級の|形|advanc:avant+ed||fr||2
+advantage|利点|名|advant:avant+age|前にいること → 有利|fr|古仏 avantage|2
 affiliate|系列会社；提携させる|名・動|af:ad+fili+ate|養子にする → 系列に加える|la||4
 aid|援助；助ける|名・動|aid:juv|助ける|fr|古仏 aidier ← ラ adiūtāre|2
 estimate|見積もり；見積もる|名・動|estim+ate|値を見積もる|la||1
@@ -118,7 +118,7 @@ arrange|手配する、並べる|動|ar:ad+range:rang|列に並べる → 手配
 arrangement|手配、配置|名|ar:ad+range:rang+ment||fr||2
 arrive|到着する|動|ar:ad+rive:ripa|岸に着く → 到着する|fr|古仏 ariver ← 俗ラ *arrīpāre|1
 arrival|到着|名|ar:ad+riv:ripa+al||fr||1
-article|記事、品物|名|art+i:_+cle|小さな部分 → 条項 → 記事|la||1
+article|記事、品物|名|art:artus+i:_+cle|小さな関節（区切り） → 条項 → 記事|la||1
 artificial|人工の|形|art+i:_+fic:fac+i:_+al|技で作った → 人工の|la||3
 artist|芸術家|名|art+ist||la||1
 artwork|芸術作品|名|art+work:_||la||2
@@ -162,7 +162,7 @@ cancel|取り消す|動|cancel:cancell|格子状の線を引いて消す|fr||1
 cancellation|取り消し|名|cancel:cancell+l:_+at:ate+ion||la||2
 candidate|候補者|名|candid:cand+ate|白い服を着た人 → 立候補者|la|ラ candidātus|1
 career|経歴、職業|名|car:carr+eer:_|車の道 → 進路 → 経歴|fr|仏 carrière|1
-cargo|貨物|名|cargo:carr|荷車に積むもの|la||2
+cargo|貨物|名|cargo:carr|荷車に積むもの|es|西 cargo（積荷）|2
 carry|運ぶ|動|carr+y:_|荷車で運ぶ|fr||1
 carrier|運送業者|名|carr+i:_+er||fr||2
 charge|料金；請求する|名・動|charge:carr|荷を積む → 負担させる → 請求する|fr|古仏 chargier ← 後期ラ carricāre|1

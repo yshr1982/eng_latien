@@ -84,7 +84,7 @@ coupon|クーポン|名|coup+on:_|切り取ったもの|fr||1
 cubicle|仕切られた作業スペース|名|cub+icle:cle|横になる小部屋 → 区切られた空間|la||3
 demolish|取り壊す|動|de+mol+ish:_|塊を崩す|fr||4
 deputy|代理|名|de+put+y|任命された者 → 代理|fr||4
-dessert|デザート|名|des:dis+sert:serv|食卓を片付けた後に出すもの|fr|仏 desservir（片付ける）|1
+dessert|デザート|名|des:dis+sert:servire|食卓を片付けた後に出すもの|fr|仏 desservir（片付ける）|1
 diminish|減少する|動|di:dis+min+ish:_|小さくする|la||4
 dividend|配当金|名|divid+end:_|分けられるべきもの|la||4
 dormitory|寮|名|dorm+it:_+ory|眠る場所 → 寮|la||3
@@ -167,7 +167,7 @@ epidemic|流行病|名|epi+dem:demo+ic|民衆の上に広がる|gr||4
 pandemic|世界的流行病|名|pan:pan_gr+dem:demo+ic|すべての民衆に広がる|gr||3
 anonymous|匿名の|形|an:_+onym+ous|名前のない|gr||4
 synonym|同義語|名|syn+onym|同じ名前|gr||4
-empathy|共感|名|em:en+path+y|中で感じること|gr||4
+empathy|共感|名|em:en_gr+path+y|中で感じること|gr||4
 sympathetic|同情的な|形|sym:syn+path+et:_+ic||gr||4
 hypertension|高血圧|名|hyper+tens:tend+ion|過度の緊張|gr||4
 hyperlink|ハイパーリンク|名|hyper+link:_||gr||3

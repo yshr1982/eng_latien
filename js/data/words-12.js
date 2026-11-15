@@ -149,7 +149,7 @@ outdated|時代遅れの|形|out+dat:don+ed|日付の外の → 古い|en||3
 outlook|見通し|名|out+look:e_look|外を見ること → 見通し|en||3
 outbreak|発生|名|out+break:e_break|破って外に出ること → 発生|en||4
 outgoing|社交的な、退任する|形|out+go:e_go+ing|外へ出ていく|en||3
-outperform|上回る|動|out+per+form|より上手に成し遂げる|en||4
+outperform|上回る|動|out+per+form:furn|より上手に成し遂げる|en||4
 outfit|服装|名|out+fit:e_fit|身に合わせて整えたもの|en||3
 input|入力、意見|名|in:in_en+put:e_put|中に置くこと → 入力|en||2
 income|収入|名|in:in_en+come:e_come|入ってくるもの → 収入|en||1
@@ -220,7 +220,7 @@ warehouse|倉庫|名|ware:_+house:e_house|商品の家 → 倉庫|en||1
 household|家庭|名|house:e_house+hold:e_hold||en||2
 housing|住宅|名|hous:e_house+ing||en||2
 housekeeping|客室清掃|名|house:e_house+keep:e_keep+ing||en||2
-landmark|目印、名所|名|land:e_land+mark:marq|土地の境界のしるし → 目印|en||2
+landmark|目印、名所|名|land:e_land+mark:e_mark|土地の境界のしるし → 目印|en||2
 landscape|風景|名|land:e_land+scape:_||en||2
 landlord|大家|名|land:e_land+lord:_|土地の主|en||2
 landline|固定電話|名|land:e_land+line||en||4
@@ -284,14 +284,14 @@ crosswalk|横断歩道|名|cross:cruc+walk:e_walk||en||2
 bypass|迂回路|名|by:_+pass:passus||en||4
 standpoint|観点|名|stand:e_stand+point:punct||en||4
 keyboard|キーボード|名|key:e_key+board:e_board||en||1
-keynote|基調（講演）|名|key:e_key+note:not||en||3
+keynote|基調（講演）|名|key:e_key+note:nota||en||3
 keyword|キーワード|名|key:e_key+word:e_word||en||2
 password|パスワード|名|pass:passus+word:e_word|通過するための言葉|en||1
 billboard|看板|名|bill:bulla+board:e_board||en||3
 dashboard|計器盤|名|dash:_+board:e_board||en||4
 neighborhood|近所|名|neighbor:e_neighbor+hood:e_hood||en||1
 friendship|友情|名|friend:e_friend+ship||en||2
-membership|会員資格|名|member:memor+ship||en||1
+membership|会員資格|名|member:membr+ship||en||1
 leadership|指導力|名|lead:e_lead+er+ship||en||2
 ownership|所有権|名|own:e_own+er+ship||en||3
 internship|インターンシップ|名|intern:inter+ship||en||2

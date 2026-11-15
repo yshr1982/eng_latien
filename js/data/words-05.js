@@ -172,14 +172,14 @@ suit|スーツ；合う|名・動|suit:sequ|後に続くもの → 揃い → �
 suitable|適した|形|suit:sequ+able||fr||2
 suite|スイートルーム|名|suite:sequ|ひと続きのもの → 続き部屋|fr||3
 second|2番目の；秒|形・名|sec:sequ+ond:_|後に続く → 2番目の|fr||1
-serve|仕える、提供する|動|serve:serv||fr||1
-service|サービス|名|serv+ice||fr||1
-reserve|予約する|動|re+serve:serv|後ろに取っておく|fr||1
-reservation|予約|名|re+serv+at:ate+ion||la||1
-conservation|保護|名|con+serv+at:ate+ion|すっかり保つこと|la||3
-conservative|保守的な|形|con+serv+at:ate+ive||la||4
-preserve|保存する|動|pre+serve:serv|前もって保つ|fr||3
-observe|観察する、守る|動|ob+serve:serv|～に注意を向けて守る|fr||2
-observation|観察|名|ob+serv+at:ate+ion||la||3
-deserve|値する|動|de+serve:serv|すっかり仕える → 報いを受けるに値する|fr||3
+serve|仕える、提供する|動|serve:servire||fr||1
+service|サービス|名|serv:servire+ice||fr||1
+reserve|予約する|動|re+serve:servare|後ろに取っておく|fr||1
+reservation|予約|名|re+serv:servare+at:ate+ion||la||1
+conservation|保護|名|con+serv:servare+at:ate+ion|すっかり保つこと|la||3
+conservative|保守的な|形|con+serv:servare+at:ate+ive||la||4
+preserve|保存する|動|pre+serve:servare|前もって保つ|fr||3
+observe|観察する、守る|動|ob+serve:servare|～に注意を向けて守る|fr||2
+observation|観察|名|ob+serv:servare+at:ate+ion||la||3
+deserve|値する|動|de+serve:servire|すっかり仕える → 報いを受けるに値する|fr||3
 `);

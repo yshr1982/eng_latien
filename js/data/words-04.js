@@ -46,7 +46,7 @@ mode|方式|名|mod+e:_||la||3
 monitor|モニター；監視する|名・動|mon+it:_+or|警告する者 → 監視する|la||2
 demonstrate|実演する|動|de+monstr:mon+ate|すっかり示す → 実演する|la||2
 demonstration|実演|名|de+monstr:mon+at:ate+ion||la||2
-mortgage|住宅ローン|名|mort+gage|死んだ誓約 → 抵当|fr|古仏 mort gage「死んだ担保」|3|「死んだ」の意味を「返済すると誓約が消える」「返せないと土地が失われる」のどちらと解するかには諸説あります。
+mortgage|住宅ローン|名|mort+gage|死んだ誓約 → 抵当|fr|古仏 mort gage「死んだ担保」|3
 multiple|複数の|形|mult+iple:plic|何重にも折った → 多数の|la||3
 multinational|多国籍の|形|multi+nat+ion+al||la||3
 communicate|伝達する|動|com:con+mun+ic:_+ate|共有する → 伝える|la||2
@@ -75,10 +75,10 @@ nomination|指名、ノミネート|名|nomin:nom+at:ate+ion||la||4
 normal|普通の|形|norm+al|定規通りの → 普通の|la||1
 normally|通常は|副|norm+al+ly||la||2
 enormous|巨大な|形|e:ex+norm+ous|基準を外れた → 巨大な|la||3
-note|メモ、注意|名|note:not|しるし|fr||1
-notice|通知；気づく|名・動|not+ice|知らせること|fr||1
-noticeable|目立つ|形|not+ice+able||fr||3
-notable|注目に値する|形|not+able||la||4
+note|メモ、注意|名|note:nota|しるし|fr||1
+notice|通知；気づく|名・動|not:nosc+ice|知らせること|fr||1
+noticeable|目立つ|形|not:nosc+ice+able||fr||3
+notable|注目に値する|形|not:nota+able||la||4
 announce|発表する|動|an:ad+nounce:nounc|～に知らせる|fr|古仏 anoncier ← ラ annūntiāre|1
 announcement|発表、お知らせ|名|an:ad+nounce:nounc+ment||fr||1
 pronounce|発音する|動|pro+nounce:nounc|前で告げる → 発音する|fr||3
@@ -129,7 +129,7 @@ particularly|特に|副|part+i:_+cul:cle+ar:al+ly||la||2
 department|部門|名|de+part+ment|分けられた部分 → 部門|fr||1
 depart|出発する|動|de+part|分かれて離れる → 出発する|fr||2
 departure|出発|名|de+part+ure||fr||1
-apartment|アパート|名|a:ad+part+ment|分けられた部屋|fr||1
+apartment|アパート|名|a:ad+part+ment|分けられた部屋|it|伊 appartamento → 仏 appartement|1
 partner|パートナー|名|part+ner:_|分け前を持つ人|fr||1
 partnership|提携|名|part+ner:_+ship||fr||2
 portion|部分|名|port:part+ion||la||3

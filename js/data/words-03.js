@@ -64,9 +64,9 @@ prejudice|偏見|名|pre+jud+ice|前もって下す判断 → 偏見|fr||4
 join|参加する、加わる|動|join:junct|結ぶ → 加わる|fr|古仏 joindre ← ラ iungere|1
 joint|共同の|形|joint:junct|結ばれた → 共同の|fr||2
 junction|交差点|名|junct+ion||la||4
-adjust|調整する|動|ad+just:jur|（後の連想では）正しくする → 調整する|fr|古仏 ajuster|2|実際の語源は ad + iuxtā（すぐそばに）とされ、justus（正しい）と結びつけたのは後の連想だという説が有力です。
-adjustment|調整|名|ad+just:jur+ment||fr||2
-adjustable|調整できる|形|ad+just:jur+able||fr||3
+adjust|調整する|動|ad+just:iuxt|そばへ寄せる → ぴったり合わせる → 調整する|fr|古仏 ajuster（後期ラ adiuxtāre）|2
+adjustment|調整|名|ad+just:iuxt+ment||fr||2
+adjustable|調整できる|形|ad+just:iuxt+able||fr||3
 just|ちょうど；公正な|副・形|just:jur|正しい|fr||1
 justice|正義|名|just:jur+ice||fr||3
 injury|けが|名|in:inneg+jur+y|正しくないこと → 損害 → けが|fr|アングロ仏 injurie ← ラ iniūria|2
@@ -171,9 +171,9 @@ memorial|記念の|形|memor+i:_+al||la||3
 memo|メモ|名|memo:memor|覚えておくべきもの|la||1
 remember|覚えている|動|re+member:memor|再び心に留める|fr||1
 commemorate|記念する|動|com:con+memor+ate||la||4
-mental|精神の|形|ment+al||la||2
-mention|言及する|動|ment+ion|心に留めさせる → 言及する|la||1
-comment|意見、コメント|名・動|com:con+ment|心に留めたこと → 注釈|la||1
+mental|精神の|形|ment:mentis+al||la||2
+mention|言及する|動|ment:mentis+ion|心に留めさせる → 言及する|la||1
+comment|意見、コメント|名・動|com:con+ment:mentis|心に留めたこと → 注釈|la||1
 commerce|商業|名|com:con+merce:merc|共に取引すること → 商業|fr||3
 commercial|商業の；CM|形・名|com:con+merc+i:_+al||la||2
 merchandise|商品|名|merch:merc+and:_+ise:_|商品|fr||2

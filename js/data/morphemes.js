@@ -1,5 +1,5 @@
 // パーツ（接頭辞・語根・接尾辞）
-// 1行1パーツ: id|type|lang|英単語中の形（カンマ区切り）|元の語形|原意|諸説の注記（任意）
+// 1行1パーツ: id|type|lang|英単語中の形（カンマ区切り）|元の語形|原意
 //   type: prefix（接頭辞） / root（語根） / suffix（接尾辞）
 //   lang: la（ラテン語） / fr（フランス語） / gr（ギリシャ語） / en（古英語・ゲルマン語）
 LATIEN.addMorphemes(`
@@ -166,7 +166,6 @@ manu|root|la|manu,man,main|manus|手
 medi|root|la|medi|medius|中間の
 memor|root|la|memor,memo,member|memor|覚えている
 mens|root|la|mens,mense|mētīrī / mēnsus|測る
-ment|root|la|ment|mēns / mentis|心
 merc|root|la|merc,merce,merch,mark|merx|商品・取引
 merg|root|la|merg,merge|mergere|浸す・沈む
 migr|root|la|migr|migrāre|移る
@@ -188,7 +187,6 @@ neg|root|la|neg,ny|negāre|否定する
 nom|root|la|nom,nomin|nōmen|名前
 nomos|root|gr|nom,nomy|nomos|法・管理
 norm|root|la|norm|norma|基準・定規
-not|root|la|not,note|nōtāre / nōscere|記す・知る
 nounc|root|la|nounce,nunci|nūntiāre|知らせる
 nov|root|la|nov|novus|新しい
 num|root|la|num,numer|numerus|数
@@ -240,7 +238,6 @@ sec|root|la|sect|secāre / sectus|切る
 sed|root|la|sid,sess,sed|sedēre|座る
 sens|root|la|sens,sense,sent|sentīre / sēnsus|感じる
 sequ|root|la|sequ,secu,cute,cut,sue,suit,suite,sec|sequī|後に続く・従う
-serv|root|la|serv,serve|servāre / servīre|保つ・仕える
 sign|root|la|sign|signum|しるし
 simil|root|la|simil,sembl,semble|similis|似た
 sist|root|la|sist,st,stat,state,stit,stabl,stin|stāre / sistere|立つ・立たせる
@@ -323,4 +320,16 @@ ness|suffix|en|-ness|古英 -nes|状態・性質
 ful|suffix|en|-ful|古英 full|～に満ちた
 less|suffix|en|-less|古英 lēas|～のない
 ship|suffix|en|-ship|古英 -scipe|状態・関係・身分
+oris|root|la|or|ōs / ōris|口
+mentis|root|la|ment|mēns / mentis|心
+membr|root|la|member|membrum|肢・構成員
+artus|root|la|art|artus|関節
+e_mark|root|en|mark|古英 mearc|境界・しるし
+en_gr|prefix|gr|en-,em-|ギ en（ἐν）|中に
+provinc|root|la|province|prōvincia（語源不詳）|統治領・属州
+iuxt|root|la|just|iuxtā|すぐそばに
+nota|root|la|note,not|nota|しるし・記号
+nosc|root|la|not|nōscere / nōtus|知る
+servare|root|la|serv,serve|servāre|保つ・守る
+servire|root|la|serv,serve|servīre（← servus 奴隷）|仕える
 `);

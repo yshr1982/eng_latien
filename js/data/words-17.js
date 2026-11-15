@@ -2,9 +2,9 @@ LATIEN.addMorphemes(`
 e_broad|root|en|broad|古英 brād|広い
 erta|root|fr|lert|伊 erta（見張り台）|見張り
 authent|root|gr|authent|authentēs|自ら行う者
-avarie|root|fr|aver|仏 avarie|海損（の分担）|アラビア語起源とする説などがあり、確定していません。
+avarie|root|fr|aver|仏 avarie|海損（の分担）
 bague|root|fr|bagg|古仏 bague|包み・荷物
-bargain|root|fr|bargain|古仏 bargaignier|値段を交渉する|ゲルマン語起源とされますが詳細は不明です。
+bargain|root|fr|bargain|古仏 bargaignier|値段を交渉する
 bas|root|gr|bas|basis|歩み・踏み台
 e_bid|root|en|bid|古英 biddan|求める・申し出る
 e_boost|root|en|boost|米語（語源不詳）|押し上げる
@@ -33,7 +33,7 @@ e_errand|root|en|errand|古英 ǣrende|伝言・用事
 e_fare|root|en|fare|古英 faran|行く・旅する
 e_fastn|root|en|fast|古英 fæst|固い・しっかりした
 fehu|root|fr|fee|アングロ仏 fee（← フランク語 fehu 家畜）|財産 → 報酬
-e_flaw|root|en|flaw|古ノルド語 flaga|薄片・ひび|古ノルド語起源は推定です。
+e_flaw|root|en|flaw|古ノルド語 flaga|薄片・ひび
 fraud|root|la|fraud|fraus / fraudis|ごまかし
 e_freight|root|en|freight|中世オランダ語 vracht|運賃・積み荷
 e_full|root|en|ful,full|古英 full|満ちた
@@ -42,7 +42,7 @@ garn|root|fr|gar|古仏 garnir|備える
 e_gather|root|en|gather|古英 gaderian|集める
 gauge|root|fr|gauge|古北仏 gauge（語源不詳）|標準の寸法
 e_halt|root|en|halt|独 Halt|止まれ
-hasard|root|fr|hazard|古仏 hasard（← アラビア語）|さいころ遊び|アラビア語 az-zahr（さいころ）説が有力ですが異説もあります。
+hasard|root|fr|hazard|古仏 hasard（← アラビア語）|さいころ遊び
 e_hire|root|en|hire|古英 hȳr|賃金
 clemen|root|la|clem|clēmēns|穏やかな
 rigare|root|la|rig|rigāre|水を引く
@@ -61,7 +61,7 @@ e_mind|root|en|mind|古英 gemynd|記憶・心
 san|root|la|san|sānus / sānitās|健康な
 scaff|root|fr|scaffold|古仏 eschaffaut|足場・見物台
 scen|root|gr|scen|skēnē|舞台
-satio|root|la|season|satiō|種まき（の時期）|statiō 由来とする説もあります。
+satio|root|la|season|satiō|種まき（の時期）
 e_settle|root|en|settle|古英 setlan|落ち着かせる
 e_shift|root|en|shift|古英 sciftan|分ける・動かす
 e_shoot|root|en|shutt|古英 scēotan|放つ
@@ -75,7 +75,7 @@ e_stead|root|en|stead|古英 stede|場所
 e_stream|root|en|stream|古英 strēam|流れ
 tarif|root|fr|tariff|仏 tarif（← アラビア語）|料金表
 e_tight|root|en|tight|古ノルド語 þéttr|すき間のない
-telos|root|gr|toll|telos|税・支払い|ゲルマン語固有の語とする説もあります。
+telos|root|gr|toll|telos|税・支払い
 e_trade|root|en|trade|中低ドイツ語 trade|道筋 → 商売
 e_trend|root|en|trend|古英 trendan|回る・向かう
 weyver|root|fr|waive|アングロ仏 weyver|捨てる
@@ -108,7 +108,7 @@ audition|オーディション|名|aud+it:_+ion|聞くこと → 実演審査|la
 authentic|本物の|形|authent+ic|自ら行う者の → 本物の|gr|ギ authentikos|3
 automate|自動化する|動|auto+mat:_+e:_|自ら動くようにする|gr||3
 automated|自動化された|形|auto+mat:_+ed||gr||3
-average|平均；平均の|名・形|aver:avarie+age|海損を荷主で均等に分担すること → 平均|fr|仏 avarie（海損）|1|古仏 avarie の先はアラビア語 ʿawār（損傷）とする説などがあり、確定していません。
+average|平均；平均の|名・形|aver:avarie+age|海損を荷主で均等に分担すること → 平均|fr|仏 avarie（海損）|1
 award|賞；授与する|名・動|a:ex+ward:gard|よく見て裁定する → 授与する|fr|アングロ仏 awarder|1
 aware|気づいている|形|aware:e_aware|用心している → 気づいている|en||2
 baggage|手荷物|名|bagg:bague+age|包みの集まり → 手荷物|fr||1
@@ -152,7 +152,7 @@ dealer|販売業者|名|deal:e_deal+er||en||2
 dealership|販売代理店|名|deal:e_deal+er+ship||en||3
 deliberate|意図的な；熟考する|形・動|de+liber:libra+ate|天秤ですっかり量る → 熟考する|la||4
 deliberately|故意に|副|de+liber:libra+ate+ly||la||4
-delicate|繊細な|形|de+lic+ate|心を誘い込むような → 繊細な|la||3|dēlicātus を dēlicere（誘い込む）と結びつけるのは推定を含みます。
+delicate|繊細な|形|de+lic+ate|心を誘い込むような → 繊細な|la||3
 depreciation|減価償却、価値の低下|名|de+preci+at:ate+ion|価値を下げること|la||4
 desirable|望ましい|形|de+sir:sider+able||fr||3
 deteriorate|悪化する|動|deterior:deter+ate|より悪くなる|la||4
@@ -173,7 +173,7 @@ equipped|備えた|形|equip:e_ship+p:_+ed||fr||3
 errand|用事、使い|名|errand:e_errand|伝言 → 使い走り|en||3
 fare|運賃|名|fare:e_fare|行くこと → 旅 → 運賃|en||1
 fasten|締める|動|fast:e_fastn+en:_|しっかりさせる|en||2
-fee|料金、手数料|名|fee:fehu|家畜 → 財産 → 報酬|fr||1|フランク語 fehu（家畜・財産）に由来するとされますが、経路には諸説あります。
+fee|料金、手数料|名|fee:fehu|家畜 → 財産 → 報酬|fr||1
 fixture|備品、設備|名|fix+t:_+ure|固定されたもの|la||4
 flaw|欠陥|名|flaw:e_flaw|薄片 → ひび → 欠陥|en||3
 forfeit|没収される、失う|動|for+feit:fac|外へ出た行い → 違反 → 没収|fr|古仏 forfait|4
@@ -188,7 +188,7 @@ gather|集める、集まる|動|gather:e_gather||en||2
 gathering|集まり|名|gather:e_gather+ing||en||3
 gauge|計器；測る|名・動|gauge|標準の寸法 → 計器|fr||4
 halt|停止；止める|名・動|halt:e_halt|止まれ|en||4
-hazard|危険|名|hazard:hasard|さいころ遊び → 運任せ → 危険|fr||3|アラビア語 az-zahr（さいころ）に由来するという説が有力ですが、異説もあります。
+hazard|危険|名|hazard:hasard|さいころ遊び → 運任せ → 危険|fr||3
 hazardous|危険な|形|hazard:hasard+ous||fr||3
 heritage|遺産|名|herit:hered+age|相続したもの|fr||3
 hire|雇う|動|hire:e_hire|賃金を払う → 雇う|en||1
@@ -233,7 +233,7 @@ sanitation|衛生|名|san+it:_+at:ate+ion|健康にすること|la||4
 scaffolding|足場|名|scaffold:scaff+ing||fr||4
 scenery|景色|名|scen+ery:y|舞台の背景 → 景色|gr||3
 scenic|景色の良い|形|scen+ic||gr||3
-seasonal|季節の|形|season:satio+al|種まきの時期 → 季節の|fr||3|season は satiō（種まき）由来が一般的ですが、statiō（立ち止まる時期）由来とする説もあります。
+seasonal|季節の|形|season:satio+al|種まきの時期 → 季節の|fr||3
 settle|解決する、精算する|動|settle:e_settle|落ち着かせる → 解決する|en||2
 settlement|和解、決済|名|settle:e_settle+ment||en||4
 shift|勤務時間、変化；移す|名・動|shift:e_shift|動かす|en||2
@@ -261,9 +261,9 @@ thorough|徹底的な|形|thorough:e_through|通り抜けて → 徹底的な|en
 thoroughly|徹底的に|副|thorough:e_through+ly||en||3
 tighten|締める、厳しくする|動|tight:e_tight+en:_||en||3
 timely|時宜を得た|形|time:e_time+ly||en||3
-toll|通行料|名|toll:telos|税|gr||3|ギリシャ語 telos（税）が後期ラテン語経由で入ったとする説と、ゲルマン語固有の語とする説があります。
+toll|通行料|名|toll:telos|税|gr||3
 tournament|トーナメント|名|tourna:torn+ment|馬上槍試合で回ること|fr||3
-trademark|商標|名|trade:e_trade+mark:marq||en||3
+trademark|商標|名|trade:e_trade+mark:e_mark||en||3
 trend|傾向|名|trend:e_trend|回る → 向かう → 傾向|en||2
 trendy|流行の|形|trend:e_trend+y:_||en||4
 turnout|参加者数|名|turn:torn+out||en||4
@@ -272,13 +272,13 @@ wage|賃金|名|wage:gage|誓約 → 支払い → 賃金|fr|古北仏 wage|2
 waive|放棄する、免除する|動|waive:weyver|捨てる|fr||4
 yield|生む；収穫、利回り|名・動|yield:e_yield|差し出す → 生み出す|en||3
 wholesaler|卸売業者|名|whole:e_whole+sal:e_sale+er||en||4
-concierge|コンシェルジュ|名|con+cierge:serv|共に仕える者 → 管理人|fr||3
+concierge|コンシェルジュ|名|con+cierge:servire|共に仕える者 → 管理人|fr||3
 courtyard|中庭|名|court:cohort+yard:e_yard||en||3
 foyer|ロビー|名|foy:foc+er:_|炉のある部屋 → 休憩室|fr||4
 renowned|著名な|形|re+nown:nom+ed|繰り返し名を呼ばれる → 有名な|fr||3
 showcase|陳列ケース；披露する|名・動|show:_+case:caps||en||3
 layover|乗り継ぎ待ち|名|lay:e_lay+over|置かれて越す → 途中待機|en||3
-benchmark|基準；基準と比較する|名・動|bench:e_bench+mark:marq|測量台のしるし → 基準点|en||3
+benchmark|基準；基準と比較する|名・動|bench:e_bench+mark:e_mark|測量台のしるし → 基準点|en||3
 equity|株式、公平|名|equ+ity|等しさ → 公平 → 持分|la||4
 brainstorm|ブレインストーミングする|動|brain:e_brain+storm:e_storm|頭の中の嵐|en||3
 `);

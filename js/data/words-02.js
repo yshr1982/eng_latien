@@ -131,8 +131,8 @@ satisfied|満足した|形|satis:sat+fi:fy+ed||fr||1
 dissatisfied|不満な|形|dis+satis:sat+fi:fy+ed||fr||3
 modify|修正する|動|mod+ify:fy|尺度に合わせる → 修正する|la||3
 modification|修正|名|mod+i:_+fic:fac+at:ate+ion||la||4
-notify|通知する|動|not+ify:fy|知らせる|fr||3
-notification|通知|名|not+i:_+fic:fac+at:ate+ion||la||3
+notify|通知する|動|not:nosc+ify:fy|知らせる|fr||3
+notification|通知|名|not:nosc+i:_+fic:fac+at:ate+ion||la||3
 specify|明記する|動|spec+ify:fy|種類を特定する → 明記する|fr||3
 specific|具体的な、特定の|形|spec+i:_+fic:fac|種類（species）を作る → 特定の|la|後期ラ specificus|2
 specifically|特に、具体的に|副|spec+i:_+fic:fac+al+ly||la||2
@@ -194,9 +194,9 @@ format|形式|名|form+at:ate||la||3
 inform|知らせる|動|in+form|形を与える → 知らせる|la|ラ īnfōrmāre|1
 information|情報|名|in+form+at:ate+ion||la||1
 informative|有益な|形|in+form+at:ate+ive||la||3
-perform|行う、演じる|動|per+form|すっかり形にする → 成し遂げる|fr|アングロ仏 parfourmer|1
-performance|業績、演技|名|per+form+ance||fr||1
-performer|演者|名|per+form+er||fr||2
+perform|行う、演じる|動|per+form:furn|すっかり供給する → やり遂げる → 行う|fr|アングロ仏 parfourmer ← 古仏 parfornir（par + fornir）|1
+performance|業績、演技|名|per+form:furn+ance||fr||1
+performer|演者|名|per+form:furn+er||fr||2
 reform|改革；改革する|名・動|re+form|作り直す → 改革|la||3
 transform|変える|動|trans+form|形を越えさせる → 変形させる|la||3
 transformation|変化、変革|名|trans+form+at:ate+ion||la||3

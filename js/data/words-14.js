@@ -15,7 +15,7 @@ advertiser|広告主|名|ad+vert:vers+is:ize+er||fr||3
 universe|宇宙|名|uni+verse:vers|一つに回るもの → 全世界|la||3
 investigator|調査員|名|in+vestig+at:ate+or||la||4
 vest|ベスト|名|vest|衣服|fr||3
-trivial|ささいな|形|tri+vi:via+al|三叉路の → ありふれた|la||4|「三叉路（人が集まる場所）の → ありふれた」という説明は後付けだとする見方もあります。
+trivial|ささいな|形|tri+vi:via+al|三叉路の → ありふれた|la||4
 evidently|明らかに|副|e:ex+vid+ent+ly||la||4
 provision|提供、条項|名|pro+vis:vid+ion|前もって備えること|la||4
 provisional|暫定的な|形|pro+vis:vid+ion+al||la||4
@@ -28,7 +28,7 @@ viewpoint|観点|名|view:vid+point:punct||fr||3
 visibility|視界、知名度|名|vis:vid+ibil:able+ity||la||4
 victory|勝利|名|vict:vinc+ory||la||3
 convincing|説得力のある|形|con+vinc+ing||la||3
-province|州|名|pro+vince:vinc|征服した地|la||4
+province|州|名|province:provinc|ローマの統治領 → 州|la||4
 revive|復活させる|動|re+vive:viv|再び生きる|fr||4
 vivid|鮮やかな|形|viv+id|生き生きとした|la||3
 vitality|活力|名|vit:viv+al+ity||la||4
@@ -93,7 +93,7 @@ technically|技術的に、厳密に言えば|副|techn+ic+al+ly||gr||4
 critically|批判的に、決定的に|副|crit:krin+ic+al+ly||gr||4
 strategically|戦略的に|副|strateg+ic+al+ly||gr||4
 physically|身体的に|副|phys+ic+al+ly||gr||4
-mentally|精神的に|副|ment+al+ly||la||4
+mentally|精神的に|副|ment:mentis+al+ly||la||4
 emotionally|感情的に|副|e:ex+mot:mob+ion+al+ly||fr||4
 digitally|デジタルで|副|digit+al+ly||la||4
 manually|手作業で|副|manu+al+ly||la||3
@@ -128,7 +128,7 @@ reinstall|再インストールする|動|re+in+stall||fr||4
 recharged|充電された|形|re+charg:carr+ed||fr||4
 disconnect|切断する|動|dis+con+nect:nec||la||3
 discontinue|中止する|動|dis+con+tin:tain+ue:_|続けるのをやめる|fr||3
-disadvantage|不利な点|名|dis+ad+vant:avant+age||fr||3
+disadvantage|不利な点|名|dis+advant:avant+age||fr||3
 dishonest|不誠実な|形|dis+honest:honor||fr||4
 dislike|嫌う|動|dis+like:e_like||en||2
 disorganized|まとまりのない|形|dis+organ+iz:ize+ed||gr||4

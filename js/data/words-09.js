@@ -4,7 +4,7 @@ decor|root|la|decor|decor|飾り・ふさわしさ
 fend|root|la|fend,fens|-fendere|打つ・払いのける
 lega|root|la|leg,league|lēgāre|任せる・使者として送る
 lai|root|fr|lay|古仏 laier|残す・放っておく
-lic|root|la|lic,light|lacere / dēlicere|誘い込む|dēlicere との結びつきは推定を含みます。
+lic|root|la|lic,light|lacere / dēlicere|誘い込む
 dens|root|la|dens|dēnsus|密な
 tail|root|fr|tail|古仏 taillier|切る
 teg|root|la|tect,teg|tegere / tēctus|覆う
@@ -52,7 +52,7 @@ fortun|root|la|fortun|fors / fortūna|運
 franc|root|fr|franch|古仏 franc|自由な
 frequ|root|la|frequ|frequēns|頻繁な・大勢の
 func|root|la|funct|fungī / fūnctus|果たす
-furn|root|fr|furn|古仏 fornir|供給する
+furn|root|fr|furn,form|古仏 fornir|供給する
 glob|root|la|glob|globus|球
 gubern|root|gr|govern|kybernān|舵を取る
 gard|root|fr|gard,guard|古仏 garder（← フランク語）|見守る
@@ -103,8 +103,8 @@ develop|開発する、発展させる|動|de+velop|包みを解く → 広げ�
 developer|開発業者|名|de+velop+er||fr||2
 development|開発、発展|名|de+velop+ment||fr||1
 envelope|封筒|名|en+velop+e:_|包むもの|fr||1
-device|装置|名|de+vice:divid|分けて工夫したもの → 装置|fr||1
-devise|考案する|動|de+vise:divid||fr||4
+device|装置|名|de:dis+vice:divid|分けて工夫したもの → 装置|fr||1
+devise|考案する|動|de:dis+vise:divid||fr||4
 divide|分ける|動|di:dis+vide:divid||la||2
 division|部門、分割|名|di:dis+vis:divid+ion|分けたもの → 部門|la||2
 individual|個人；個々の|名・形|in:inneg+di:dis+vid:divid+u:_+al|分けられない → 個人|la||1
@@ -116,7 +116,7 @@ able|できる|形|able:habil|扱える → できる|fr|古仏 able ← ラ hab
 ability|能力|名|abil:habil+ity||fr||1
 enable|可能にする|動|en+able:habil|できるようにする|fr||2
 disabled|障害のある|形|dis+abl:habil+ed||fr||3
-disaster|災害|名|dis+aster:astr|悪い星 → 災害|fr||3
+disaster|災害|名|dis+aster:astr|悪い星 → 災害|it|伊 disastro|3
 discuss|話し合う|動|dis+cuss:quat|ばらばらに打ち砕く → 検討する|la||1
 discussion|話し合い|名|dis+cuss:quat+ion||la||1
 distinguish|区別する|動|di:dis+sting+u:_+ish:_|突いて分ける → 区別する|la||3
@@ -137,8 +137,8 @@ enhance|高める|動|en+hance:alt|高くする|fr|古仏 enhaucier ← 俗ラ *
 enter|入る、入力する|動|enter:intr|中に入る|fr||1
 entrance|入口|名|entr:intr+ance||fr||1
 entry|入場、応募作品|名|entr:intr+y||fr||2
-enthusiastic|熱心な|形|en+thus:the+i:_+ast:_+ic|神が中にいる → 熱狂した|gr||3
-enthusiasm|熱意|名|en+thus:the+i:_+asm:ism||gr||3
+enthusiastic|熱心な|形|en:en_gr+thus:the+i:_+ast:_+ic|神が中にいる → 熱狂した|gr||3
+enthusiasm|熱意|名|en:en_gr+thus:the+i:_+asm:ism||gr||3
 entire|全体の|形|en:inneg+tire:tact|手つかずの → 全体の|fr||2
 entirely|まったく|副|en:inneg+tire:tact+ly||fr||3
 title|題名、肩書き|名|title:titul||fr||1

@@ -50,7 +50,7 @@ res|root|la|real,re|rēs|物・事柄
 recens|root|la|recent|recēns|新しい
 fresh|root|en|fresh|古英 fersc（古仏 freis も影響）|新鮮な
 bursa|root|gr|burse|byrsa|革袋 → 財布
-marq|root|fr|mark|仏 marquer|しるしを付ける
+marq|root|fr|mark|仏 marquer（ゲルマン語起源）|しるしを付ける
 plat|root|gr|place,plac|plateia|広い通り・場所
 sortir|root|fr|sort|古仏 sortir|出て行く
 surg|root|la|sour,surg|surgere|湧き上がる
@@ -189,7 +189,7 @@ realize|気づく、実現する|動|real:res+ize|実在のものにする → �
 realistic|現実的な|形|real:res+ist+ic||la||3
 recent|最近の|形|recent:recens||la||1
 recently|最近|副|recent:recens+ly||la||1
-recover|回復する|動|re+cover:cap|取り戻す|fr|古仏 recovrer ← ラ recuperāre|2|recuperāre が capere（取る）と同じ語根かどうかは確定していません。
+recover|回復する|動|re+cover:cap|取り戻す|fr|古仏 recovrer ← ラ recuperāre|2
 recovery|回復|名|re+cover:cap+y||fr||3
 refresh|元気づける|動|re+fresh|再び新鮮にする|fr|古仏 refreschir（re- + fresche）|3
 refreshments|軽食|名|re+fresh+ment+s:_|元気づけるもの → 軽食|fr||2

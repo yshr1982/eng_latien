@@ -4,7 +4,6 @@ agor|root|gr|egor|agoreuein|公に述べる
 pict|root|la|pict,paint|pingere / pictus|描く・塗る
 riv|root|la|rive|rīvus|小川
 plus|root|la|plus|plūs|より多く
-or|root|la|or|ōs / ōris|口
 e_white|root|en|white|古英 hwīt|白い
 e_hard|root|en|hard|古英 heard|固い
 e_soft|root|en|soft|古英 sōfte|柔らかい
@@ -28,12 +27,12 @@ excluding|～を除いて|前|ex+clud:claud+ing||la||3
 informed|情報に基づいた|形|in+form+ed||la||3
 inspiring|刺激的な|形|in+spir+ing||la||3
 registered|登録された、書留の|形|re+gist:ger+er:_+ed||fr||3
-reserved|予約済みの|形|re+serv+ed||fr||2
+reserved|予約済みの|形|re+serv:servare+ed||fr||2
 scheduled|予定された|形|sched+ul:cle+ed||fr||2
 aircraft|航空機|名|air:aer+craft:_||en||2
 airfare|航空運賃|名|air:aer+fare:_||en||2
 appetizer|前菜|名|ap:ad+pet+iz:ize+er|食欲をそそるもの|la||2
-archive|記録保管所|名|arch+ive|役所 → 記録保管所|gr||4
+archive|記録保管所|名|arch+ive:_|役所 → 記録保管所|gr|ギ arkheion（役所）→ 後期ラ archīvum|4
 sort|分類する；種類|動・名|sort:sors|くじの割り当て → 種類|fr||2
 assortment|詰め合わせ|名|as:ad+sort:sors+ment|種類ごとに揃えたもの|fr||3
 assorted|詰め合わせの|形|as:ad+sort:sors+ed||fr||4
@@ -59,8 +58,8 @@ derive|由来する|動|de+rive:riv|小川から水を引く → 引き出す|la
 detour|回り道|名|de+tour:torn|わきへ回ること|fr||3
 discard|捨てる|動|dis+card:chart|カードを捨てる|fr||4
 enact|制定する|動|en+act:ag||la||4
-energy|エネルギー|名|en+erg+y|中で働く力|gr||1
-energetic|精力的な|形|en+erg+et:_+ic||gr||3
+energy|エネルギー|名|en:en_gr+erg+y|中で働く力|gr||1
+energetic|精力的な|形|en:en_gr+erg+et:_+ic||gr||3
 entail|伴う|動|en+tail|切り分けて付ける → 伴う|fr||4
 envision|思い描く|動|en+vis:vid+ion||la||4
 exterior|外観、外部|名|exter+ior:_|より外側の|la||3
@@ -85,7 +84,7 @@ moderator|司会者|名|mod+er:_+at:ate+or|加減をする人|la||3
 nutrient|栄養素|名|nutr+i:_+ent||la||4
 occupational|職業上の|形|oc:ob+cup:cap+at:ate+ion+al||la||4
 optimal|最適な|形|optim+al||la||4
-oral|口頭の|形|or+al|口の|la||4
+oral|口頭の|形|or:oris+al|口の|la||4
 outset|初め|名|out+set:e_set||en||4
 pact|協定|名|pact|固めた約束|la||4
 panelist|パネリスト|名|pan:pann+el:_+ist||fr||3
@@ -143,7 +142,7 @@ workday|勤務日|名|work:e_work+day:e_day||en||3
 nightlife|夜の娯楽|名|night:e_night+life:e_life||en||4
 headset|ヘッドセット|名|head:e_head+set:e_set||en||2
 headcount|人数|名|head:e_head+count:put||en||4
-notebook|ノート|名|note:not+book:e_book||en||1
+notebook|ノート|名|note:nota+book:e_book||en||1
 textbook|教科書|名|text+book:e_book||en||1
 guidebook|案内書|名|guide:_+book:e_book||en||2
 timeframe|期間|名|time:e_time+frame:_||en||4
@@ -159,7 +158,7 @@ outsourcing|外部委託|名|out+sour:surg+c:_+ing||en||3
 outweigh|上回る|動|out+weigh:e_weigh|重さで勝る|en||4
 outrun|追い越す|動|out+run:e_run||en||4
 underpaid|給料の安い|形|under+pai:pac+d:ed||en||4
-underperform|期待を下回る|動|under+per+form||en||4
+underperform|期待を下回る|動|under+per+form:furn||en||4
 undervalue|過小評価する|動|under+val+ue:_||en||4
 uptown|住宅地区|名|up+town:e_town||en||4
 downward|下向きの|形|down+ward:e_ward||en||3
@@ -170,7 +169,7 @@ afterward|その後|副|after:_+ward:e_ward||en||3
 facilitator|進行役|名|fac+il:ile+it:_+at:ate+or||la||4
 backup|予備|名|back:e_back+up||en||2
 cutback|削減|名|cut:e_cut+back:e_back||en||4
-markup|値上げ幅|名|mark:marq+up||en||4
+markup|値上げ幅|名|mark:e_mark+up||en||4
 startup|新興企業|名|start:_+up||en||3
 turnaround|好転|名|turn:torn+a:_+round:rot|ぐるりと向きを変えること|en||4
 surround|囲む|動|sur+round:und|上にあふれる → 取り囲む|fr|古仏 suronder ← 後期ラ superundāre|2
